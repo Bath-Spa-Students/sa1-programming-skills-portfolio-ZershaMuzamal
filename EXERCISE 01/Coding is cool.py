@@ -9,9 +9,11 @@ word3 =
 _____(_________)
 _________________________________________________________________________________"""
 
-# SRING CONCATINATION
+#Variable 1
 word1 = 'welcome'
+#Variable 2 
 word2 = 'to'
+#Variable
 word3 ='bathspa'
-
+# SRING CONCATINATION
 print(word1,word2,word3)
