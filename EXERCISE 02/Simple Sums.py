@@ -8,7 +8,11 @@ In this exercise, you will create and work with integer variables, perform arith
 3. Declare a third variable that stores the sum of first two numbers.
 4. Print the value of the sum to the console.
 """
+#Variable 1 
 A = 8
+#Variable 2
 B = 10
+#Simple sum
 SUM = A+B
+#Print statement
 print(SUM)
