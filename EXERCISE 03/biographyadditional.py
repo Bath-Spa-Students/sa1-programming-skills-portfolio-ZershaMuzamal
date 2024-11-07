@@ -1,23 +1,26 @@
-"""## Exercise 3: Biography - 25 Marks
-In this exercise, you'll create a  program that stores and prints your name, hometown, and age to the console using a Python dictionary.
+## Exercise 3: Biography - 25 Marks
+"""In this exercise, you'll create a program that stores and prints your name, hometown, and age to the console using a Python 
+dictionary."""
 ### Steps:
-1. Store the information (name, hometown, and age) as key-value pairs in a dictionary.
+"""1. Store the information (name, hometown, and age) as key-value pairs in a dictionary.
 2. Print the values on separate lines using a single `print()` statement.
-3. Use variables with appropriate data types for each piece of information.
+3. Use variables with appropriate data types for each piece of information."""
 ### Advanced Requirements:
-Have the user input their name, hometown, and age instead of hardcoding the values.
-Try giving both your first and second name when asked for your name. What happens? How can you handle multiple words in Python?
-Test the program by entering a string value for age (e.g., "twenty"). What happens? How can you prevent this issue?"""
-#STORING INFORMATION WITH ADDITIONAL REQUIREMENTS
-#STORING FIRST NAME
-first_name = str(input("ENTER YOUR FIRST NAME HERE:"))
-#STORING LAST NAME
-last_name = str(input("ENTER YOUR LAST NAME HERE:"))
-#USING CANCATENATION TO MAKE FULL NAME
-full_name = first_name + last_name
-#STORING HOMETOWN
-hometown = str(input("ENTER YOUR HOMETOWN HERE:"))
-#STORING AGE
-age = str(input("ENTER YOUR AGE HERE:"))
-#PRINTING VALUES WITH CONCATENATION
-print("YOUR NAME IS:" + full_name + "\n" + "YOUR HOMETOWN IS:" + hometown + "\n" + "YOUR AGE IS:" + age)
+"""Have the user input their name, hometown, and age instead of hardcoding the values.
+Try giving both your first and second name when asked for your name. What happens?
+How can you handle multiple words in Python?
+Test the program by entering a string value for age (e.g., "twenty"). What happens?
+How can you prevent this issue?"""
+
+Biography = {
+'first_name' : input("ENTER YOUR FIRST NAME:") ,
+'last_name' : input("ENTER YOUR LAST NAME:") ,
+'full_name' : 'first_name' +" "+ 'last_name' ,
+'hometown' : input("ENTER YOUR HOMETOWN:"),
+'age' : str(input("ENTER YOUR AGE:"))
+}
+Biography['full_name'] = Biography['first_name'] + " " +Biography['last_name']
+#PRINTING VALUES WITH CONCATINATION
+print('full_name:' + Biography['full_name'] + "\n" +
+'hometown: ' + Biography['hometown'] + "\n" +
+'age: ' + str(Biography['age']))
