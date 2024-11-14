@@ -8,14 +8,11 @@ The list is initialized with specific names
 
 #CREATING A LIST
 NAMES_LIST =["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
-#TAKING USER INPUT TO CHECK IF TH INPUT IS IN THE LIST
-ENTERED_NAME = input("ENTER A NAME TO CHECK IF IT IS IN THE LIST:")
+ENTERED_NAME = "Sam"
 #ADDING IF-ELSE STATEMENT FOR CONDITIONS
-if ENTERED_NAME.lower() in [name.lower() for name in NAMES_LIST]:
-    #ADDING INDEX FUNTION TO CHECK TH LIST
-    index = [name.lower() for name in NAMES_LIST].index(ENTERED_NAME.lower())
+if ENTERED_NAME in NAMES_LIST:
     #PRINT STATEMENT IF THE CONDITION IS TRUE
-    print(f"THE NAME ENTERED IS AT INDEX {index} IS THE LIST")
+    print("SAM IS IN THE LIST")
 else:
     #PRINT STATEMENT IF THE CONDITION IS FALSE
-    print("THE NAME ENTERED IS NOT IN THE LIST")
+    print("SAM IS NOT IN THE LIST")
