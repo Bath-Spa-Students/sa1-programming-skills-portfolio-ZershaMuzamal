@@ -8,6 +8,7 @@ The list is initialized with specific names
 
 #CREATING A LIST
 NAMES_LIST =["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+#INITIALIZING A A SPECIFIC NAME
 ENTERED_NAME = "Sam"
 #ADDING IF-ELSE STATEMENT FOR CONDITIONS
 if ENTERED_NAME in NAMES_LIST:
