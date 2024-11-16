@@ -10,10 +10,11 @@ _____(_________)
 _________________________________________________________________________________"""
 
 #Variable 1
-word1 = 'welcome'
+word1 = 'Coding'
 #Variable 2 
-word2 = 'to'
+word2 = 'is'
 #Variable
-word3 ='bathspa'
+word3 ='Cool'
 # SRING CONCATINATION
 print(word1,word2,word3)
+
