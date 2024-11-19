@@ -11,16 +11,16 @@ Try giving both your first and second name when asked for your name. What happen
 How can you handle multiple words in Python?
 Test the program by entering a string value for age (e.g., "twenty"). What happens?
 How can you prevent this issue?"""
-
+#
 Biography = {
-'first_name' : input("ENTER YOUR FIRST NAME:") ,
-'last_name' : input("ENTER YOUR LAST NAME:") ,
-'full_name' : 'first_name' +" "+ 'last_name' ,
-'hometown' : input("ENTER YOUR HOMETOWN:"),
-'age' : str(input("ENTER YOUR AGE:"))
+    'first_name': input("ENTER YOUR FIRST NAME:"),
+    'last_name': input("ENTER YOUR LAST NAME:"),
+    'hometown': input("ENTER YOUR HOMETOWN:"),
+    'age': str(input("ENTER YOUR AGE:"))
 }
-Biography['full_name'] = Biography['first_name'] + " " +Biography['last_name']
-#PRINTING VALUES WITH CONCATINATION
-print('full_name:' + Biography['full_name'] + "\n" +
-'hometown: ' + Biography['hometown'] + "\n" +
-'age: ' + str(Biography['age']))
+#INITIALIZING THE 'full_name' BASED ON INPUTS
+Biography['full_name'] = Biography['first_name'] + " " + Biography['last_name']
+#Printing values with concatenation
+print('full_name: ' + Biography['full_name'] + "\n" +
+      'hometown: ' + Biography['hometown'] + "\n" +
+      'age: ' + Biography['age'])
