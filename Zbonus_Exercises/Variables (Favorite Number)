@@ -1,0 +1,10 @@
+#QUESTION
+"""Use a variable to represent your favorite number. Then, using that variable, create a
+message that reveals your favorite number. Print that message."""
+#ANSWER
+#STROING FAVORITE NUMBER IN A VARIABLE
+fav_number = "7"
+#SHOWING MY FAVORITE NUMBER IN OTHER VARIABLE
+Message = f"MY FAVORITE NUMBER IS {fav_number}"
+#PRINTING MY VARIABLE
+print(Message)
