@@ -1,0 +1,13 @@
+#ASKING FOR USER INPUT
+
+#SIMPLE NAME INPUT FROM USER
+NAME = input("ENTER YOUR NAME HERE:")
+#PRINTING INPUT GIVEN BY THE USER
+print(NAME)
+
+#
+age = int(input("ENTER YOUR AGE HERE:"))
+if age <=18:
+    print("YOU CAN GET DISCOUNT")
+else:
+    print("you are to old to get it")
