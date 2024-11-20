@@ -52,6 +52,6 @@ for fruit in FRUITS:
 
 #FOR LOOP PRINTING A RANGE
 for NUMBERR in range(6):
-  print(NUMBERR)
+  print(NUMBERR) 
 else:
   print("THE COUNT ENDS HERE!!")
