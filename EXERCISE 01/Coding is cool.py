@@ -15,6 +15,7 @@ word1 = 'Coding'
 word2 = 'is'
 #Variable
 word3 ='Cool'
-# SRING CONCATINATION
-print(word1,word2,word3)
+#SRING CONCATINATION FOR PRINT STATEMENT
+print(word1 +" "+ word2 + " "+ word3)
+
 
