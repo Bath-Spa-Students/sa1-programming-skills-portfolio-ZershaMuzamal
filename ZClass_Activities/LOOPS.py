@@ -1,4 +1,4 @@
-#WHILE LOOP
+#WHILE LOOP 
 
 #JUST A WHILE LOOP
 num = 1
