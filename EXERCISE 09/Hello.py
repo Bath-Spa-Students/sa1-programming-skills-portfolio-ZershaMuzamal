@@ -7,11 +7,12 @@ def main():
 ____  # Fill in this blank to call the hello() function
 if __name__ == "__main__":
 main()"""
+#FILLING THE BLANK TO PRINT HELLO
 def hello():
-    print(hello) # Fill in this blank to print "Hello" to the console
-
+    print(hello) 
+#FILLING THE BLANK TO CALL THE FUNTION HELLO()
 def main():
-    hello() # Fill in this blank to call the hello() function
-
+    hello() 
+#CALLING THE MAIN FUNTION
 if __name__ == "__main__":
     main()
